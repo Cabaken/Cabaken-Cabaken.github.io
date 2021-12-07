@@ -1,5 +1,5 @@
 body {
-background:url(https://downloadwap.com/thumbs2/wallpapers/p2ls/2019/cars-transport/49/95af08f413699623.jpg);
+background: #141414;
 
 font-family: Trebuchet MS, Arial, Times New Roman;
 text-align: center;
@@ -53,7 +53,7 @@ border: 3px solid white;
     font-size: 20px;
     padding-left: 20px;
     padding-top: 10px;
-    background: #141414;
+    
     font-family: Bradley Hand, cursive;
    
   }
@@ -134,8 +134,8 @@ a{
   font-size: 10px;
 }
 .pod{
-  background: #d2d0d2;
-
+  background: #e6e6e6;
+  width: 100%;
 }
 
 
