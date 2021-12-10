@@ -19,7 +19,17 @@
       </ul>
         </div>
 
-        
+        <script src="//ulogin.ru/js/ulogin.js"></script>
+<div id="uLogin" data-ulogin="display=panel;theme=flat;fields=first_name,last_name;providers=vkontakte,odnoklassniki,facebook;hidden=google,yandex;redirect_uri=http%3A%2F%2Fhttps%3A%2F%2Fcabaken.github.io%2F;mobilebuttons=0;"></div>
+ 
+ 
+                     $s = file_get_contents('http://ulogin.ru/token.php?token=' . $_POST['token'] . '&host=' . $_SERVER['HTTP_HOST']);
+                    $user = json_decode($s, true);
+                    //$user['network'] - соц. сеть, через которую авторизовался пользователь
+                    //$user['identity'] - уникальная строка определяющая конкретного пользователя соц. сети
+                    //$user['first_name'] - имя пользователя
+                    //$user['last_name'] - фамилия пользователя
+                
             <div class="text"> <!-- блок -->
             <h2>Краткая история М5 </h2> <!-- Подзаголовок -->
             
